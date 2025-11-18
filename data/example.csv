@@ -1,0 +1,6 @@
+timestamp,heart_rate,glucose,notes
+2025-01-01,72,95,baseline
+2025-01-02,80,100,run day
+2025-01-03,75,92,rest
+2025-01-04,78,98,stress
+2025-01-05,70,94,rest

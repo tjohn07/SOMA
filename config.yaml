@@ -1,0 +1,27 @@
+project:
+  name: SOMA
+  description: System for Observing and Modeling Alignment
+  version: 0.1.0
+  created: '2025-11-17'
+  author: TJohn
+paths:
+  project_dir: /Users/TJohn/Projects/SOMA
+  data_dir: /Users/TJohn/Projects/SOMA/data
+  notebooks_dir: /Users/TJohn/Projects/SOMA/notebooks
+  feature_engineering_dir: /Users/TJohn/Projects/SOMA/feature_engineering
+  modeling_dir: /Users/TJohn/Projects/SOMA/modeling
+  narrative_dir: /Users/TJohn/Projects/SOMA/narrative
+  outputs_dir: /Users/TJohn/Projects/SOMA/outputs
+data_sources:
+  garmin_strava:
+    api: Strava API
+    data_type: activity + biometric
+    status: planned
+  stelo_dexcom:
+    api: Dexcom / Stelo
+    data_type: glucose
+    status: to be explored
+  manual_log:
+    file: SOMA_Manual_Log.xlsx
+    data_type: self-reported mood, stress, cycle phase
+    status: active
